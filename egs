@@ -1,0 +1,19 @@
+my_list =[]
+print(f"Empty list:{my_list}")
+my_numbers= [10,20,30,40]
+my_list.extend(my_numbers)
+print(f"list after extending multiple numbers:{my_list}")
+my_list.insert(1, 15)
+print(my_list)
+my_nos=[50,60,70]
+my_list.extend(my_nos)
+print(f"list after extending multiple numbers:{my_list}")
+print(my_list)
+removed_item =my_list.pop()
+print(f"removed item:{removed_item}")
+print(f"list after pop:{my_list}")
+my_list.sort()
+index =my_list.index(30)
+print(f"The index of 30 is :{index}")
+
+
