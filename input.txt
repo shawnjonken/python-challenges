@@ -1,0 +1,7 @@
+Hello, this is line 1 of the input file.
+Python is a versatile programming language.
+Visual Studio Code is a great code editor.
+This is the fourth line of our text file.
+Programming is fun and rewarding!
+The quick brown fox jumps over the lazy dog.
+      

@@ -17,3 +17,12 @@ index =my_list.index(30)
 print(f"The index of 30 is :{index}")
 
 
+file= (open('egs','r'))
+try:
+    with open('egs.py','r') as file :
+        data =file.read()
+except FileNotFoundError:
+    print("file not found.please chack filename.")
+finally:
+    print("Execution completed.")
+    file.close() 
