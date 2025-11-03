@@ -1,0 +1,27 @@
+class smartphone :
+    def __init__(self,brand,model,price):
+        self.brand=brand
+        self.model=model
+        self.price=price
+    def display_info(self):
+        print(f"Brand: {self.brand}, Model: {self.model}, Price: ${self.price}")        
+phone1=smartphone("Apple","iPhone 13",999)
+phone2=smartphone("Samsung","Galaxy S21",799)
+phone1.display_info()
+phone2.display_info()   
+print(f"Type of phone1: {type(phone1)}")
+
+
+class animals:
+    def __init__ (self,name ,move):
+        self.name=name
+        self.move=move
+
+    def display_info(self):
+            print(f"Name: {self.name}, move: {self.move}")
+
+dog=animals("Dog","run")
+cat=animals("Cat","slither")
+dog.display_info()
+cat.display_info()
+print(f"Type of dog: {type(dog)}")
