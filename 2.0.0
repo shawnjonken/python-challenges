@@ -1,0 +1,14 @@
+Collecting SQLAlchemy
+  Downloading sqlalchemy-2.0.44-cp313-cp313-win_amd64.whl.metadata (9.8 kB)
+Collecting greenlet>=1 (from SQLAlchemy)
+  Downloading greenlet-3.2.4-cp313-cp313-win_amd64.whl.metadata (4.2 kB)
+Collecting typing-extensions>=4.6.0 (from SQLAlchemy)
+  Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Downloading sqlalchemy-2.0.44-cp313-cp313-win_amd64.whl (2.1 MB)
+   -------- 2.1/2.1  36.2      0:00:50
+            MB       kB/s             
+Downloading greenlet-3.2.4-cp313-cp313-win_amd64.whl (299 kB)
+Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Installing collected packages: typing-extensions, greenlet, SQLAlchemy
+
+Successfully installed SQLAlchemy-2.0.44 greenlet-3.2.4 typing-extensions-4.15.0

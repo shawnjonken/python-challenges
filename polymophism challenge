@@ -25,3 +25,26 @@ cat=animals("Cat","slither")
 dog.display_info()
 cat.display_info()
 print(f"Type of dog: {type(dog)}")
+
+from gettext import install
+import math
+print (f"Square root of 16 is :{math.sqrt(16)}")
+print (f"Value of pi is :{math.pi}")
+print (f"Value of e is :{math.e}")
+import random
+print(f"Random number between 1 and 10 is :{random.randint(1,10)}")
+print(f"Random choice from list is :{random.choice(['apple','banana','cherry'])}")
+import datetime
+today =datetime.date.today()
+print(f"Today's date is :{today}")
+print(f"Current time is :{datetime.datetime.now().time()}")
+import os   
+
+import numpy as np
+import pandas as pd
+import scipy
+# etc.
+
+print(f"NumPy version: {np.__version__}")
+print(f"Pandas version: {pd.__version__}")
+print(f"SciPy version: {scipy.__version__}")

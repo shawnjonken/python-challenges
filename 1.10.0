@@ -1,0 +1,6 @@
+Collecting scipy
+  Using cached scipy-1.16.3-cp313-cp313-win_amd64.whl.metadata (60 kB)
+Requirement already satisfied: numpy<2.6,>=1.25.2 in c:\my docs\egs\venv\lib\site-packages (from scipy) (2.3.4)
+Downloading scipy-1.16.3-cp313-cp313-win_amd64.whl (38.5 MB)
+           3.4/38… 27.3    eta 0:21:28
+           MB      kB/s               

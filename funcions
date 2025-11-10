@@ -1,20 +1,32 @@
-def greet(name="guest"):
-    '''greet a person by their name'''
-    return f"Hwllo,{name}!"
-print(greet())
-print(greet("Alice"))
-def introduce(name,age):
-    return f"my name  is {name},and my age is {age}years old."
-print(introduce(name="sahwn",age=26))
-def square(number):
-    return number ** 2  
-result = square(5)
-print(result)   
-#lambda function for adding two numbers
-add = lambda x, y: x+ y
-print(add(3 , 5))
-def factorial(n):
-    if n == 1:
-        return 1
-    return n * factorial(n-1)
-print(factorial(7))
+import numpy as np
+my_array =np.array([1,2,3,4,5,6,7,8,9,10])
+print("Original Array:", my_array)
+
+# Basic statistics
+print("Mean:", np.mean(my_array))
+print("Max:", np.max(my_array))
+print("Min:", np.min(my_array))
+
+
+import matplotlib.pyplot as plt 
+import pandas as pd
+data = {'Students': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
+        'Scores': [85, 90, 78, 92, 88]}
+df = pd.DataFrame(data)
+print("DataFrame:")
+print(df)
+print("Summary Statistics:")
+print(df.describe())
+
+
+import requests
+response = requests.get('https://api.github.com')
+print("GitHub API Status Code:", response.status_code)
+import matplotlib.pyplot as plt
+#line graph
+numbers = [1, 2, 3, 4, 5]
+plt.plot(numbers)
+plt.title("Line Graph Example")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.show()
